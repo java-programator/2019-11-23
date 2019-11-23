@@ -24,7 +24,7 @@ public class Test {
             }
         };
         CopyStrategy strategy2 = (s, d) ->
-                System.arraycopy(src, 0, d, 0, s.length);
+                System.arraycopy(s, 0, d, 0, s.length);
 
         generateRandomArray(src);
 
